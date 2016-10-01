@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">tema2_ejercicios</string>
+    <string name="firstTextViewEj1">Primera Etiqueta</string>
+    <string name="secondTextViewEj1">Segunda Etiqueta</string>
 </resources>

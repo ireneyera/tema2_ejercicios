@@ -13,5 +13,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/firstTextViewEj1"
+        android:id="@+id/firstTextViewEj1"
+        android:onClick="compareObjects"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/secondTextViewEj1"
+        android:id="@+id/secondTextViewEj1"
+        android:layout_below="@+id/firstTextViewEj1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
 </RelativeLayout>
