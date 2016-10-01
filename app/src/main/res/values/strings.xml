@@ -3,4 +3,6 @@
     <string name="firstTextViewEj1">Primera Etiqueta</string>
     <string name="secondTextViewEj1">Segunda Etiqueta</string>
     <string name="textViewEj2">Ejemplo de etiqueta - Ejercicio 2</string>
+    <string name="textViewEj3">Contador: </string>
+
 </resources>
