@@ -11,10 +11,10 @@
         <activity android:name=".Ejercicio1" />
         <activity android:name=".Ejercicio2" />
         <activity android:name=".Ejercicio3" />
-        <activity android:name=".Ejercicio4"></activity>
-        <activity android:name=".Ejercicio5">
-        </activity>
-        <activity android:name=".Ejercicio7">
+        <activity android:name=".Ejercicio4" />
+        <activity android:name=".Ejercicio5" />
+        <activity android:name=".Ejercicio7" />
+        <activity android:name=".Ejercicio8">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
