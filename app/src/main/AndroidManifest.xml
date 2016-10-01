@@ -14,7 +14,8 @@
         <activity android:name=".Ejercicio4" />
         <activity android:name=".Ejercicio5" />
         <activity android:name=".Ejercicio7" />
-        <activity android:name=".Ejercicio8">
+        <activity android:name=".Ejercicio8" />
+        <activity android:name=".Ejercicio9">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
