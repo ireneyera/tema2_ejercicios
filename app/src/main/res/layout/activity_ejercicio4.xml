@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ejercicio4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="arey.es.tema2_ejercicios.Ejercicio4">
+
+    <TextView
+        android:text="@string/textViewNameEj4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textViewNameEj4"
+        android:labelFor="@+id/editTextNameEj4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/editTextNameEj4"
+        android:ems="10"
+        android:layout_marginStart="21dp"
+        android:id="@+id/editTextNameEj4"
+        android:layout_alignBaseline="@+id/textViewNameEj4"
+        android:layout_alignBottom="@+id/textViewNameEj4"
+        android:layout_toEndOf="@+id/textViewNameEj4" />
+
+    <TextView
+        android:text="@string/textViewLastNameEj4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewLastNameEj4"
+        android:layout_below="@+id/editTextNameEj4"
+        android:layout_alignStart="@+id/textViewNameEj4"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/editTextLastNameEj4"
+        android:ems="10"
+        android:id="@+id/editTextLastNameEj4"
+        android:layout_alignBaseline="@+id/textViewLastNameEj4"
+        android:layout_alignBottom="@+id/textViewLastNameEj4"
+        android:layout_alignStart="@+id/editTextNameEj4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:layout_below="@+id/editTextLastNameEj4"
+        android:layout_alignStart="@+id/editTextLastNameEj4"
+        android:id="@+id/editTextAddressEj4"
+        android:text="@string/editTextAddressEj4"
+        android:singleLine="false" />
+
+    <TextView
+        android:text="@string/textViewAddressEj4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignBaseline="@+id/editTextAddressEj4"
+        android:layout_alignBottom="@+id/editTextAddressEj4"
+        android:layout_alignStart="@+id/textViewLastNameEj4" />
+
+    <TextView
+        android:text="@string/textViewEmailEj4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:id="@+id/textViewEmailEj4"
+        android:layout_below="@+id/editTextAddressEj4"
+        android:layout_alignStart="@+id/textView3" />
+
+    <Button
+        android:text="@string/buttonEj4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmailEj4"
+        android:layout_alignStart="@+id/textViewEmailEj4"
+        android:layout_marginTop="44dp"
+        android:id="@+id/buttonEj4"
+        android:onClick="check" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editTextEmailEj4"
+        android:text="@string/editTextEmailEj4"
+        android:layout_alignBaseline="@+id/textViewEmailEj4"
+        android:layout_alignBottom="@+id/textViewEmailEj4"
+        android:layout_alignStart="@+id/editTextAddressEj4" />
+</RelativeLayout>
