@@ -11,17 +11,25 @@ import android.widget.EditText;
 public class Ejercicio4 extends AppCompatActivity {
 
     public static final String TAG = "Ejercicio4";
+
+    private EditText name;
+    private EditText lastName;
+    private EditText address;
+    private EditText email;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ejercicio4);
+
+        name = (EditText)findViewById(R.id.editTextNameEj4);
+        lastName = (EditText)findViewById(R.id.editTextLastNameEj4);
+        address = (EditText)findViewById(R.id.editTextAddressEj4);
+        email = (EditText)findViewById(R.id.editTextEmailEj4);
     }
 
     public void check(View v) {
-        EditText name = (EditText)findViewById(R.id.editTextNameEj4);
-        EditText lastName = (EditText)findViewById(R.id.editTextLastNameEj4);
-        EditText address = (EditText)findViewById(R.id.editTextAddressEj4);
-        EditText email = (EditText)findViewById(R.id.editTextEmailEj4);
+
 
         if (name.getText().length() <= 3) {
             Log.i(TAG, "El nombre no tiene una longitud de más de tres letras");

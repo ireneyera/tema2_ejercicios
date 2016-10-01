@@ -9,15 +9,20 @@ import android.widget.TextView;
 public class Ejercicio1 extends AppCompatActivity {
 
     public static final String TAG = "Ejercicio1";
+
+    private TextView firstTextView;
+    private TextView secondTextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ejercicio1);
+
+        firstTextView = (TextView)findViewById(R.id.firstTextViewEj1);
+        secondTextView = (TextView)findViewById(R.id.secondTextViewEj1);
     }
 
     public void compareObjects(View v) {
-        TextView firstTextView = (TextView)findViewById(R.id.firstTextViewEj1);
-        TextView secondTextView = (TextView)findViewById(R.id.secondTextViewEj1);
+
 
         String resultFirstTextView = firstTextView.equals(v) ? " " : " NO ";
         Log.i(TAG, "El primer TextView" + resultFirstTextView + "es igual que el parámetro View");
