@@ -50,11 +50,6 @@ public class Ejercicio4 extends AppCompatActivity {
         // Longitud mínima de un email válido = 6 (a@a.es)
         if ((emailString.length()<6) || (locationAt == -1) || (locationDot == -1) || (locationAt > locationDot - 1) || (locationDot + 2 > emailString.length())) {
             Log.i(TAG, "El email no es correcto");
-            Log.i(TAG, "El email no es correcto "+emailString.length());
-            Log.i(TAG, "El email no es correcto "+(locationAt == -1));
-            Log.i(TAG, "El email no es correcto "+(locationDot == -1));
-            Log.i(TAG, "El email no es correcto "+(locationAt > locationDot - 1));
-            Log.i(TAG, "El email no es correcto "+(locationDot + 2 < emailString.length()));
         }
 
     }
