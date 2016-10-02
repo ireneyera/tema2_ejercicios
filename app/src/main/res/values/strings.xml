@@ -23,4 +23,7 @@
     <string name="button2Ej11">Página de Google</string>
     <string name="button3Ej11">Abrir mapa</string>
     <string name="buttonEjemplo11">Enviar correo</string>
+    <string name="editTextURLEj13">URL</string>
+    <string name="OK">OK</string>
+    <string name="button3Ej13">Volver</string>
 </resources>
