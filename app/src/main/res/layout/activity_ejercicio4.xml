@@ -25,13 +25,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="@string/editTextNameEj4"
         android:ems="10"
         android:layout_marginStart="21dp"
         android:id="@+id/editTextNameEj4"
         android:layout_alignBaseline="@+id/textViewNameEj4"
         android:layout_alignBottom="@+id/textViewNameEj4"
-        android:layout_toEndOf="@+id/textViewNameEj4" />
+        android:layout_toEndOf="@+id/textViewNameEj4"
+        android:hint="@string/editTextNameEj4" />
 
     <TextView
         android:text="@string/textViewLastNameEj4"
@@ -46,12 +46,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="@string/editTextLastNameEj4"
         android:ems="10"
         android:id="@+id/editTextLastNameEj4"
         android:layout_alignBaseline="@+id/textViewLastNameEj4"
         android:layout_alignBottom="@+id/textViewLastNameEj4"
-        android:layout_alignStart="@+id/editTextNameEj4" />
+        android:layout_alignStart="@+id/editTextNameEj4"
+        android:hint="@string/editTextLastNameEj4" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -61,8 +61,8 @@
         android:layout_below="@+id/editTextLastNameEj4"
         android:layout_alignStart="@+id/editTextLastNameEj4"
         android:id="@+id/editTextAddressEj4"
-        android:text="@string/editTextAddressEj4"
-        android:singleLine="false" />
+        android:singleLine="false"
+        android:hint="@string/editTextAddressEj4" />
 
     <TextView
         android:text="@string/textViewAddressEj4"
@@ -98,8 +98,8 @@
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/editTextEmailEj4"
-        android:text="@string/editTextEmailEj4"
         android:layout_alignBaseline="@+id/textViewEmailEj4"
         android:layout_alignBottom="@+id/textViewEmailEj4"
-        android:layout_alignStart="@+id/editTextAddressEj4" />
+        android:layout_alignStart="@+id/editTextAddressEj4"
+        android:hint="@string/editTextEmailEj4" />
 </RelativeLayout>

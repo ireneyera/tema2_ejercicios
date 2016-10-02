@@ -37,4 +37,14 @@
         android:layout_marginTop="12dp"
         android:id="@+id/button3Ej11"
         android:onClick="openMap" />
+
+    <Button
+        android:text="@string/buttonEjemplo11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3Ej11"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/button1Ejemplo11"
+        android:onClick="sendMail" />
 </RelativeLayout>
