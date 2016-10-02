@@ -25,7 +25,9 @@ public class Ejercicio13a extends AppCompatActivity {
     public void openWeb(View v) {
         Intent webIntent = new Intent(Intent.ACTION_VIEW);
         webIntent.setData(Uri.parse(receivedURL));
-        startActivity(webIntent);
+        if (webIntent.resolveActivity(getPackageManager()) != null) {
+            startActivity(webIntent);
+        }
     }
 
     public void goBack(View v) {

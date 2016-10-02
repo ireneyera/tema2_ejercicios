@@ -26,4 +26,25 @@
     <string name="editTextURLEj13">URL</string>
     <string name="OK">OK</string>
     <string name="button3Ej13">Volver</string>
+    <string name="button114">Ejercicio 1</string>
+    <string name="button214">Ejercicio 2</string>
+    <string name="button314">Ejercicio 3</string>
+    <string name="Button4Ej14">Ejercicio 4</string>
+    <string name="button5Ej14">Ejercicio 5</string>
+    <string name="button6Ej14">Ejercicio 6</string>
+    <string name="button1Ej6">1</string>
+    <string name="button2Ej6">2</string>
+    <string name="button3Ej6">3</string>
+    <string name="button4Ej6">4</string>
+    <string name="button6Ej6">6</string>
+    <string name="button5Ej6">5</string>
+    <string name="button7Ej6">7</string>
+    <string name="button8Ej6">8</string>
+    <string name="button9Ej6">9</string>
+    <string name="button10Ej6">0</string>
+    <string name="button11Ej6">+</string>
+    <string name="button12Ej6">-</string>
+    <string name="button13Ej6">*</string>
+    <string name="button14Ej6">/</string>
+    <string name="button15Ej6">=</string>
 </resources>

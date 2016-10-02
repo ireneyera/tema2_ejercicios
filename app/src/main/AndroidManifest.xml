@@ -20,14 +20,16 @@
         <activity android:name=".Ejercicio11" />
         <activity android:name=".Ejercicio12" />
         <activity android:name=".Ejercicio12b" />
-        <activity android:name=".Ejercicio13">
+        <activity android:name=".Ejercicio13" />
+        <activity android:name=".Ejercicio13a" />
+        <activity android:name=".Ejercicio14">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Ejercicio13a"></activity>
+        <activity android:name=".Ejercicio6"></activity>
     </application>
 
 </manifest>
